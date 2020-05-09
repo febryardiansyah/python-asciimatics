@@ -22,7 +22,7 @@ def demo(screen):
     #show taki.gif
     effects = [
         Print(screen,
-              ColourImageFile(screen, "taki.gif", screen.height,
+              ColourImageFile(screen, "assets/images/taki.gif", screen.height,
                               uni=screen.unicode_aware),
               screen.height,
               speed=1),
@@ -32,7 +32,7 @@ def demo(screen):
     #show mitsuha.gif
     effects = [
         BannerText(screen,
-                   ColourImageFile(screen, "mitsuha.gif", screen.height-2,
+                   ColourImageFile(screen, "assets/images/mitsuha.gif", screen.height-2,
                                    uni=screen.unicode_aware, dither=screen.unicode_aware),
                    0, 0),
     ]
@@ -40,7 +40,7 @@ def demo(screen):
     #show mitshua2.gif
     effects = [
         Print(screen,
-            ColourImageFile(screen, "mitsuha2.gif",screen.height,
+            ColourImageFile(screen, "assets/images/mitsuha2.gif",screen.height,
                             uni=screen.unicode_aware),
             screen.height,
             speed=1,),
@@ -50,16 +50,11 @@ def demo(screen):
     #show both.gif
     effects = [
         Print(screen,
-              ColourImageFile(screen, "both.gif", screen.height-2,
+              ColourImageFile(screen, "assets/images/both.gif", screen.height-2,
                               uni=screen.unicode_aware,
                               dither=screen.unicode_aware),
               0,
               stop_frame=200),
-        # Print(screen,
-        #       FigletText("ASCIIMATICS",
-        #                  font='banner3' if screen.width > 80 else 'banner'),
-        #       screen.height//2-3,
-        #       colour=7, bg=7 if screen.unicode_aware else 0),
     ]
     scenes.append(Scene(effects))
     #show end text

@@ -6,8 +6,5 @@ show image animation gif, png, jpg in python
 2. run main.py in terminal
 
 # Screenshoot
-<img src="ss1.png" width ="30%"><br>
-<img src="ss2.png" width ="30%"><br>
-<img src="ss3.png" width ="30%"><br>
-<img src="ss4.png" width ="30%"><br>
-<img src="ss5.png" width ="30%"><br>
+<img src="assets/ss/ss3.png" width ="30%"> <img src="assets/ss/ss4.png" width ="30%">
+<img src="assets/ss/ss5.png" width ="30%">
